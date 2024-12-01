@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Belleza Pura</title>
+
+    <meta
+      name="description"
+      content="Transforme sua rotina com produtos veganos que celebram a sua essência única."
+    />
+
+    <link rel="icon" type="image/x-icon" href="./assets/favico.ico" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav">
+        <h1>Belleza<span>Pura</span></h1>
+
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+
+        <ul role="menu">
+          <li>
+            <a onclick="closeMenu()" href="#header">Inicio</a>
+          </li>
+
+          <li>
+            <a onclick="closeMenu()" href="#products">Produtos</a>
+          </li>
+
+          <li>
+            <a onclick="closeMenu()" href="#about">Sobre</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-content">
+        <img
+          src="./assets/mockup_cosmetic_products.png"
+          alt="Produtos de skincare"
+        />
+        <div>
+          <h2>Deixe a natureza cuidar do seu corpo e alma</h2>
+          <h3>
+            Uma pele saudável e radiante começa com o toque gentil da natureza.
+          </h3>
+
+          <a href="#content-info">
+            <button>Conheça a nova linha</button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="content-info" id="content-info">
+      <div class="content-info1">
+        <h2>Inspirado no conhecimento tradicional e na natureza</h2>
+        <img
+          src="./assets/aloe-vera-gel-cream.png"
+          alt="Creme com aloe veras"
+        />
+      </div>
+
+      <div class="content-info2">
+        <div class="content-topic">
+          <img src="./assets/Exp-1.-O.png" alt="Icone 100% vegano" />
+
+          <div>
+            <h3>100% Veganos</h3>
+            <p>
+              Nós criamos produtos para a pele usando os ingredientes mais
+              requintados dos reinos vegetal, terrestre e mineral.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-topic">
+          <img src="./assets/skin 1.png" alt="Icone pele" />
+
+          <div>
+            <h3>Adapta-se à sua pele</h3>
+            <p>
+              É totalmente natural e processado com base no conhecimento
+              tradicional com tecnologia moderna.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-topic">
+          <img src="./assets/serum 3.png" alt="Icone serum" />
+
+          <div>
+            <h3>Fácil de usar</h3>
+            <p>
+              Com um design exclusivo e útil que pode ajudar você a realizar
+              cuidados de rotina com a pele.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="products-header">
+        <p>Produtos em destaque</p>
+        <h2>Cuidados faciais e de pele, naturais e orgânicos</h2>
+      </div>
+
+      <div class="product-list">
+        <div class="product">
+          <img
+            class="product-img"
+            src="./assets/th.jpg"
+            alt="Serum Hydrating"
+          />
+
+          <div class="product-info">
+            <p>Hydrating</p>
+            <p>R$ 50</p>
+            <div class="product-rating">
+              <img src="./assets/Rating.png" alt="Estrelas de avaliação" />
+              <p>4.0</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img
+            class="product-img"
+            src="./assets/thaa.jpg"
+            alt="Serum Ringiovanire"
+          />
+
+          <div class="product-info">
+            <p>Ringiovanire</p>
+            <p>R$ 85</p>
+            <div class="product-rating">
+              <img src="./assets/Rating-full.png" alt="Estrelas de avaliação" />
+              <p>5.0</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img
+            class="product-img"
+            src="./assets/therrr.jpg"
+            alt="Creme Arnica Fermy"
+          />
+
+          <div class="product-info">
+            <p>Arnica Fermy</p>
+            <p>R$ 65</p>
+            <div class="product-rating">
+              <img src="./assets/Rating-half.png" alt="Estrelas de avaliação" />
+              <p>4.5</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img
+            class="product-img"
+            src="./assets/thowww.jpg"
+            alt="Creme Multi-Aloe"
+          />
+
+          <div class="product-info">
+            <p>Multi-Aloe</p>
+            <p>R$ 70</p>
+            <div class="product-rating">
+              <img src="./assets/Rating-full.png" alt="Estrelas de avaliação" />
+              <p>5.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="more-btn">
+        <button>Ver todos os produtos</button>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-info">
+        <div>
+          <p>Sobre nós</p>
+          <h2>Belleza Pura, uma empresa de cuidados faciais e de pele</h2>
+        </div>
+
+        <div>
+          <p>
+            Somos uma empresa especializada na fabricação e desenvolvimento de
+            produtos faciais e de cuidados com a pele usando as propriedades
+            medicinais da farmacopeia tradicional, com uma preocupação com o
+            desenvolvimento sustentável.
+          </p>
+          <p>
+            Os produtos oferecidos, cujos benefícios foram cientificamente
+            comprovados, são 100% veganos e permitem que você cuide do seu corpo
+            e mente: soluções com chás calmantes, infusões energizantes, óleos
+            essenciais anti-inflamatórios, sabonetes e cremes
+            antienvelhecimento, etc.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-divisor"></div>
+
+      <div class="about-info2">
+        <p>Recomendado por</p>
+        <div>
+          <img src="./assets/Company01.png" alt="Vogue" />
+          <img src="./assets/Company02.png" alt="Forbes" />
+          <img src="./assets/Company3.png" alt="Marie Claire" />
+          <img src="./assets/Company04.png" alt="Woman's Health" />
+          <img src="./assets/Company5.png" alt="Men's Health" />
+          <img src="./assets/Company06.png" alt="Cosmopolitan" />
+        </div>
+      </div>
+    </section>
+
+    <section class="leads-form">
+      <div>
+        <p>Inscreva-se para receber nossas novidades</p>
+        <h2>Receba nossas ofertas exclusivas e novidades</h2>
+
+        <form>
+          <input type="text" placeholder="Seu nome" />
+          <input type="email" placeholder="Seu e-mail" />
+          <button type="submit">Inscrever-se</button>
+        </form>
+      </div>
+
+      <img
+        src="./assets/skin-art.png"
+        alt="Arte de uma pessoa com flores ao redor"
+      />
+    </section>
+
+    <footer>
+      <div class="footer-section1">
+        <h3>Belleza<span>Pura</span></h3>
+        <p>©2024 Belleza Pura</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+
+      <div class="footer-section2">
+        <h3>Produtos</h3>
+        <ul>
+          <li>Skincare</li>
+          <li>Corpo</li>
+          <li>Sabonetes</li>
+          <li>Óleos</li>
+          <li>Fragrâncias</li>
+          <li>Presentes</li>
+        </ul>
+      </div>
+
+      <div class="footer-section3">
+        <h3>Help Desk</h3>
+        <ul>
+          <li>Chat</li>
+          <li>FAQ</li>
+          <li>Envio & Devoluções</li>
+          <li>Contato</li>
+          <li>Acessibilidade</li>
+          <li>Termos e Condições</li>
+        </ul>
+      </div>
+
+      <div class="footer-section4">
+        <div>
+          <a href="https://web.whatsapp.com/" target="_blank">
+            <img src="./assets/whatsapp.svg" alt="Whatsapp" />
+          </a>
+
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="./assets/instagram.svg" alt="Instagram" />
+          </a>
+
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="./assets/facebook.svg" alt="Facebook" />
+          </a>
+
+          <a href="https://x.com/" target="_blank">
+            <img src="./assets/twitter-x.svg" alt="Twitter/X" />
+          </a>
+        </div>
+
+        <a class="email" href="https://gmail.com/" target="_blank">
+          <img src="./assets/email.svg" alt="Email" />
+          contato@bellezapuza.com.br
+        </a>
+
+        <p>Av. Paulista, 1000 - São Paulo, Brasil</p>
+      </div>
+    </footer>
+
+    <div id="emailModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div>
+          <h3>Olá</h3>
+          <p>
+            Obrigado por se inscrever! Por favor, verifique seu e-mail para
+            confirmar sua inscrição.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
